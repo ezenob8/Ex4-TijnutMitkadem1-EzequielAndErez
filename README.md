@@ -29,10 +29,6 @@ Download the "ex4" folder where are all the documents of the project.
 
 ***F)*** In CMakeLists.txt, paste this below the line 4: set(CMAKE_CXX_FLAGS -pthread)
 
-***G)*** Then, go to the upper bar to Run, and select EditConfigurations...
-
-***H)*** Finally, write in Program arguments: 8081 , and select OK.
-
 
 
 #### If you want to do it by Command Line:
@@ -45,9 +41,6 @@ Download the "ex4" folder where are all the documents of the project.
 
 you@yourhost:~$ g++ -std=c++14 *.cpp -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pthread -o a.out -pthread
 
-***D)*** Write in Terminal this to run the program:
-
-you@yourhost:~$ ./a.out 8081 cmake-build-debug/auto_client.py
 
 ## Built With
 * **[Ubuntu](https://ubuntu.com/download/desktop) - Version "buster/sid"** - 5.0.0-37-generic #40~18.04.1-Ubuntu SMP UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
