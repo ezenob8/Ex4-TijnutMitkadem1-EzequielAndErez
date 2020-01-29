@@ -39,7 +39,7 @@ Download the "ex4" folder where are all the documents of the project.
 
 ***C)*** Paste this in the Terminal and do enter:
 
-you@yourhost:~$ g++ -std=c++14 *.cpp -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pthread -o a.out -pthread
+you@yourhost:~$ g++ -std=c++14 *.cpp -Wall -Wextra -Wshadow -Wnon-virtual-dtor -o a.out -pthread
 
 
 ## Built With
